@@ -46,10 +46,23 @@ void Sort(int** a, const int rowCount, const int colCount) {
     }
 }
 
+void Calc(int** a, const int rowCount, const int colCount, int& S, int& k) {
+    S = 0;
+    k = 0;
+    for (int i = 0; i < rowCount; i++) {
+        for (int j = 0; j < colCount; j++) {
+            if (!(a[i][j] % 2 != 0 && (i + j) % 7 == 0)) {
+                S += a[i][j];
+                k++;
+                a[i][j] = 0;
+            }
+        }
+    }
+}
+
 #ifndef TEST
 int main() {
     srand((unsigned)time(NULL));
-    
     int Low = 9;
     int High = 61;
     int rowCount = 7;
@@ -66,6 +79,16 @@ int main() {
 
     Sort(S, rowCount, colCount);
     cout << "Sorted Matrix:" << endl;
+    Print(S, rowCount, colCount);
+
+    int sum = 0;
+    int k = 0;
+    Calc(S, rowCount, colCount, sum, k);
+    
+    cout << "S = " << sum << endl;
+    cout << "k = " << k << endl;
+    
+    cout << "Modified Matrix (with 0s):" << endl;
     Print(S, rowCount, colCount);
 
     for (int i = 0; i < rowCount; i++) {

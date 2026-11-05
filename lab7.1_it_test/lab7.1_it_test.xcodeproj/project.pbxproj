@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A0194DE6309BA18300D2FC07 /* CopyFiles */ = {
+		A0194E36309C6BD600D2FC07 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolder = None;
@@ -18,19 +18,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A0194DE8309BA18300D2FC07 /* lab7.1_it-b_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lab7.1_it-b_test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0194E38309C6BD600D2FC07 /* lab7.1_it_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab7.1_it_test; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A0194DEA309BA18300D2FC07 /* lab7.1_it-b_test */ = {
+		A0194E3A309C6BD600D2FC07 /* lab7.1_it_test */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "lab7.1_it-b_test";
+			path = lab7.1_it_test;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0194DE5309BA18300D2FC07 /* Frameworks */ = {
+		A0194E35309C6BD600D2FC07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -38,18 +38,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0194DDF309BA18300D2FC07 = {
+		A0194E2F309C6BD600D2FC07 = {
 			isa = PBXGroup;
 			children = (
-				A0194DEA309BA18300D2FC07 /* lab7.1_it-b_test */,
-				A0194DE9309BA18300D2FC07 /* Products */,
+				A0194E3A309C6BD600D2FC07 /* lab7.1_it_test */,
+				A0194E39309C6BD600D2FC07 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A0194DE9309BA18300D2FC07 /* Products */ = {
+		A0194E39309C6BD600D2FC07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0194DE8309BA18300D2FC07 /* lab7.1_it-b_test */,
+				A0194E38309C6BD600D2FC07 /* lab7.1_it_test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,59 +57,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0194DE7309BA18300D2FC07 /* lab7.1_it-b_test */ = {
+		A0194E37309C6BD600D2FC07 /* lab7.1_it_test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0194DEF309BA18300D2FC07 /* Build configuration list for PBXNativeTarget "lab7.1_it-b_test" */;
+			buildConfigurationList = A0194E3F309C6BD600D2FC07 /* Build configuration list for PBXNativeTarget "lab7.1_it_test" */;
 			buildPhases = (
-				A0194DE4309BA18300D2FC07 /* Sources */,
-				A0194DE5309BA18300D2FC07 /* Frameworks */,
-				A0194DE6309BA18300D2FC07 /* CopyFiles */,
+				A0194E34309C6BD600D2FC07 /* Sources */,
+				A0194E35309C6BD600D2FC07 /* Frameworks */,
+				A0194E36309C6BD600D2FC07 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				A0194DEA309BA18300D2FC07 /* lab7.1_it-b_test */,
+				A0194E3A309C6BD600D2FC07 /* lab7.1_it_test */,
 			);
-			name = "lab7.1_it-b_test";
-			productName = "lab7.1_it-b_test";
-			productReference = A0194DE8309BA18300D2FC07 /* lab7.1_it-b_test */;
+			name = lab7.1_it_test;
+			productName = lab7.1_it_test;
+			productReference = A0194E38309C6BD600D2FC07 /* lab7.1_it_test */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0194DE0309BA18300D2FC07 /* Project object */ = {
+		A0194E30309C6BD600D2FC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					A0194DE7309BA18300D2FC07 = {
+					A0194E37309C6BD600D2FC07 = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = A0194DE3309BA18300D2FC07 /* Build configuration list for PBXProject "lab7.1_it-b_test" */;
+			buildConfigurationList = A0194E33309C6BD600D2FC07 /* Build configuration list for PBXProject "lab7.1_it_test" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A0194DDF309BA18300D2FC07;
+			mainGroup = A0194E2F309C6BD600D2FC07;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A0194DE9309BA18300D2FC07 /* Products */;
+			productRefGroup = A0194E39309C6BD600D2FC07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0194DE7309BA18300D2FC07 /* lab7.1_it-b_test */,
+				A0194E37309C6BD600D2FC07 /* lab7.1_it_test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A0194DE4309BA18300D2FC07 /* Sources */ = {
+		A0194E34309C6BD600D2FC07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
 			);
@@ -117,7 +117,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A0194DED309BA18300D2FC07 /* Debug configuration for PBXProject "lab7.1_it-b_test" */ = {
+		A0194E3D309C6BD600D2FC07 /* Debug configuration for PBXProject "lab7.1_it_test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		A0194DEE309BA18300D2FC07 /* Release configuration for PBXProject "lab7.1_it-b_test" */ = {
+		A0194E3E309C6BD600D2FC07 /* Release configuration for PBXProject "lab7.1_it_test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Release;
 		};
-		A0194DF0309BA18300D2FC07 /* Debug configuration for PBXNativeTarget "lab7.1_it-b_test" */ = {
+		A0194E40309C6BD600D2FC07 /* Debug configuration for PBXNativeTarget "lab7.1_it_test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -240,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		A0194DF1309BA18300D2FC07 /* Release configuration for PBXNativeTarget "lab7.1_it-b_test" */ = {
+		A0194E41309C6BD600D2FC07 /* Release configuration for PBXNativeTarget "lab7.1_it_test" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,24 +251,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0194DE3309BA18300D2FC07 /* Build configuration list for PBXProject "lab7.1_it-b_test" */ = {
+		A0194E33309C6BD600D2FC07 /* Build configuration list for PBXProject "lab7.1_it_test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0194DED309BA18300D2FC07 /* Debug configuration for PBXProject "lab7.1_it-b_test" */,
-				A0194DEE309BA18300D2FC07 /* Release configuration for PBXProject "lab7.1_it-b_test" */,
+				A0194E3D309C6BD600D2FC07 /* Debug configuration for PBXProject "lab7.1_it_test" */,
+				A0194E3E309C6BD600D2FC07 /* Release configuration for PBXProject "lab7.1_it_test" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		A0194DEF309BA18300D2FC07 /* Build configuration list for PBXNativeTarget "lab7.1_it-b_test" */ = {
+		A0194E3F309C6BD600D2FC07 /* Build configuration list for PBXNativeTarget "lab7.1_it_test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0194DF0309BA18300D2FC07 /* Debug configuration for PBXNativeTarget "lab7.1_it-b_test" */,
-				A0194DF1309BA18300D2FC07 /* Release configuration for PBXNativeTarget "lab7.1_it-b_test" */,
+				A0194E40309C6BD600D2FC07 /* Debug configuration for PBXNativeTarget "lab7.1_it_test" */,
+				A0194E41309C6BD600D2FC07 /* Release configuration for PBXNativeTarget "lab7.1_it_test" */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A0194DE0309BA18300D2FC07 /* Project object */;
+	rootObject = A0194E30309C6BD600D2FC07 /* Project object */;
 	validationLevel = 1;
 }
